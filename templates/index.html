@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Candidate Profile Analysis</title>
+  <link rel="stylesheet" href="/static/css/style.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <span class="brand">🎯 InternMatch</span>
+    <div>
+      <a href="/">Home</a>
+      <a href="/availability">Vacancies</a>
+      <a href="/dashboard">Dashboard</a>
+      <a href="/admin">Admin</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Candidate Profile Analysis</h1>
+    <p class="subtitle">Upload candidate resume to auto-fill details, then complete any missing fields manually.</p>
+
+    <!-- Resume Upload -->
+    <div class="card resume-upload-card">
+      <h3>📄 Upload Resume (PDF) — Recommended</h3>
+      <p class="muted" style="margin-bottom:1rem;">
+        Name, CGPA, Department and Skills will be auto-detected from the resume.
+        Fill remaining fields manually.
+      </p>
+      <div class="resume-upload-row">
+        <input type="file" id="resumeFile" accept=".pdf"/>
+        <button class="btn-primary" onclick="extractResume()" id="extractBtn">
+          Extract Details
+        </button>
+      </div>
+      <div id="extractStatus" class="extract-status" style="display:none;"></div>
+    </div>
+
+    <!-- Main Form -->
+    <form action="/predict" method="POST" class="card">
+      <input type="hidden" name="resume_text" id="resumeTextHidden"/>
+
+      <div class="section-label">👤 Basic Information</div>
+      <div class="grid-2">
+
+        <div class="field">
+          <label>Full Name <span class="auto-tag" id="tag_name" style="display:none;">auto-filled</span></label>
+          <input type="text" name="name" id="field_name" required placeholder="e.g. Priya Sharma"/>
+        </div>
+
+        <div class="field">
+          <label>Department <span class="auto-tag" id="tag_dept" style="display:none;">auto-filled</span></label>
+          <input type="text" name="department" id="field_dept" required placeholder="e.g. Computer Science"/>
+        </div>
+
+        <div class="field">
+          <label>CGPA (out of 10) <span class="auto-tag" id="tag_cgpa" style="display:none;">auto-filled</span></label>
+          <input type="number" name="cgpa" id="field_cgpa" step="0.01" min="0" max="10" required placeholder="8.5"/>
+        </div>
+
+        <div class="field">
+          <label>Projects Completed</label>
+          <input type="number" name="projects" id="field_projects" min="0" max="20" required placeholder="3"/>
+        </div>
+
+        <div class="field">
+          <label>Certifications</label>
+          <input type="number" name="certifications" id="field_certifications" min="0" max="10" required placeholder="2"/>
+        </div>
+
+        <div class="field">
+          <label>Experience Level</label>
+          <select name="experience_level" id="field_experience">
+            <option value="0">Beginner</option>
+            <option value="1">Intermediate</option>
+            <option value="2">Advanced</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Area of Interest</label>
+          <input type="text" name="area_of_interest" placeholder="e.g. Machine Learning"/>
+        </div>
+
+        <div class="field">
+          <label>Preferred Technology</label>
+          <input type="text" name="preferred_tech" placeholder="e.g. Python"/>
+        </div>
+
+      </div>
+
+      <div class="field" style="margin-top:0.5rem;">
+        <label>
+          Technical Skills
+          <span class="hint">(auto-detected from resume + select manually)</span>
+          <span class="auto-tag" id="tag_skills" style="display:none;">auto-filled</span>
+        </label>
+        <div class="skills-grid" id="skillsGrid">
+          {% for skill in all_skills %}
+          <label class="skill-chip">
+            <input type="checkbox" name="skills" value="{{ skill }}"
+                   class="skill-cb" data-skill="{{ skill }}"/>
+            {{ skill }}
+          </label>
+          {% endfor %}
+        </div>
+      </div>
+
+      <button type="submit" class="btn-primary" style="margin-top:0.5rem;">
+        Analyze & Submit to Admin →
+      </button>
+    </form>
+  </div>
+
+  <script>
+  async function extractResume() {
+    const file = document.getElementById("resumeFile").files[0];
+    if (!file) { alert("Please select a PDF file first."); return; }
+
+    const btn    = document.getElementById("extractBtn");
+    const status = document.getElementById("extractStatus");
+    btn.textContent = "Extracting…";
+    btn.disabled = true;
+    status.style.display = "none";
+
+    const formData = new FormData();
+    formData.append("resume", file);
+
+    try {
+      const res  = await fetch("/extract_resume", { method: "POST", body: formData });
+      const data = await res.json();
+
+      let filled = [];
+
+      // ── Name ──────────────────────────────────────────────────────────
+      if (data.name) {
+        document.getElementById("field_name").value = data.name;
+        document.getElementById("tag_name").style.display = "inline";
+        filled.push("Name");
+      }
+
+      // ── Department ────────────────────────────────────────────────────
+      if (data.department) {
+        document.getElementById("field_dept").value = data.department;
+        document.getElementById("tag_dept").style.display = "inline";
+        filled.push("Department");
+      }
+
+      // ── CGPA ──────────────────────────────────────────────────────────
+      if (data.cgpa) {
+        document.getElementById("field_cgpa").value = data.cgpa;
+        document.getElementById("tag_cgpa").style.display = "inline";
+        filled.push("CGPA");
+      }
+
+      // ── Skills ────────────────────────────────────────────────────────
+      if (data.skills && data.skills.length > 0) {
+        document.querySelectorAll(".skill-cb").forEach(cb => {
+          if (data.skills.includes(cb.dataset.skill)) {
+            cb.checked = true;
+            cb.closest(".skill-chip").style.background = "#ede9fe";
+            cb.closest(".skill-chip").style.borderColor = "#6366f1";
+          }
+        });
+        document.getElementById("tag_skills").style.display = "inline";
+        filled.push(`${data.skills.length} Skills`);
+      }
+
+      // ── Resume text (hidden) ───────────────────────────────────────────
+      document.getElementById("resumeTextHidden").value = data.text || "";
+
+      // ── Status message ────────────────────────────────────────────────
+      status.style.display = "block";
+      if (filled.length > 0) {
+        status.className = "extract-status status-success";
+        status.innerHTML = `✅ Auto-filled: <strong>${filled.join(", ")}</strong>. Please fill remaining fields manually.`;
+      } else {
+        status.className = "extract-status status-warn";
+        status.innerHTML = "⚠️ Could not extract details from this resume. Please fill all fields manually.";
+      }
+
+    } catch(e) {
+      status.style.display = "block";
+      status.className = "extract-status status-error";
+      status.textContent = "❌ Extraction failed. Please fill the form manually.";
+    }
+
+    btn.textContent = "Extract Details";
+    btn.disabled = false;
+  }
+  </script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Report – {{ r[1] }}</title>
+  <link rel="stylesheet" href="/static/css/style.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <span class="brand">🎯 InternMatch</span>
+    <div>
+      <a href="/admin">← Back to Admin</a>
+      <a href="/admin/logout" style="color:#fca5a5;">Logout</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Candidate Report</h1>
+
+    <div class="grid-3">
+      <div class="card stat-card">
+        <div class="stat-label">Score</div>
+        <div class="stat-value">{{ r[12] }}<span class="stat-unit">/100</span></div>
+        <div class="badge {% if r[12] >= 75 %}badge-green{% elif r[12] >= 50 %}badge-yellow{% else %}badge-red{% endif %}">
+          {{ r[13] }}
+        </div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-label">Application Status</div>
+        <div style="margin-top:0.8rem;">
+          <span class="badge
+            {% if r[16] == 'Accepted' %}badge-green
+            {% elif r[16] == 'Rejected' %}badge-red
+            {% else %}badge-yellow{% endif %}" style="font-size:1rem;padding:0.5rem 1.2rem;">
+            {{ r[16] }}
+          </span>
+        </div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-label">Vacancy Available</div>
+        <div class="stat-value">{{ available }}</div>
+        <div style="font-size:0.82rem;color:#64748b;">slots for {{ r[10] }}</div>
+      </div>
+    </div>
+
+    <div class="grid-2" style="margin-top:1.5rem;">
+      <div class="card">
+        <h3>👤 Candidate Details</h3>
+        <table class="info-table">
+          <tr><td>Name</td><td>{{ r[1] }}</td></tr>
+          <tr><td>Department</td><td>{{ r[2] }}</td></tr>
+          <tr><td>CGPA</td><td>{{ r[3] }}</td></tr>
+          <tr><td>Projects</td><td>{{ r[5] }}</td></tr>
+          <tr><td>Certifications</td><td>{{ r[6] }}</td></tr>
+          <tr><td>Area of Interest</td><td>{{ r[7] }}</td></tr>
+          <tr><td>Preferred Tech</td><td>{{ r[8] }}</td></tr>
+          <tr><td>Experience</td><td>{{ ["Beginner","Intermediate","Advanced"][r[9]] }}</td></tr>
+          <tr><td>Skills</td><td>{{ r[4] }}</td></tr>
+          <tr><td>Applied On</td><td>{{ r[18] }}</td></tr>
+        </table>
+      </div>
+
+      <div class="card">
+        <h3>🎯 Recommendation</h3>
+        <table class="info-table">
+          <tr><td>Primary Role</td><td><strong>{{ r[10] }}</strong></td></tr>
+          <tr><td>Secondary Role</td><td>{{ r[11] }}</td></tr>
+          <tr><td>Missing Skills</td><td>{{ r[14] or "None" }}</td></tr>
+        </table>
+
+        <h3 style="margin-top:1.2rem;">🗺️ Learning Roadmap</h3>
+        <ol class="roadmap-list">
+          {% for step in roadmap %}<li>{{ step }}</li>{% endfor %}
+        </ol>
+      </div>
+    </div>
+
+    <!-- Accept / Reject -->
+    {% if r[16] == 'Pending' %}
+    <div class="card" style="margin-top:1rem;display:flex;gap:1rem;align-items:center;flex-wrap:wrap;">
+      <h3 style="margin:0;">Admin Decision:</h3>
+      <form method="POST" action="/admin/action/{{ r[0] }}/accept">
+        <button type="submit" class="btn-accept"
+          {% if available == 0 %}onclick="return confirm('No vacancy available. Accept anyway?')"{% endif %}>
+          ✅ Accept
+        </button>
+      </form>
+      <form method="POST" action="/admin/action/{{ r[0] }}/reject">
+        <button type="submit" class="btn-reject">❌ Reject</button>
+      </form>
+    </div>
+    {% elif r[16] == 'Accepted' %}
+    <div class="card" style="margin-top:1rem;background:#f0fdf4;border:1px solid #bbf7d0;display:flex;gap:1rem;align-items:center;">
+      <p style="color:#16a34a;font-weight:600;margin:0;">✅ Candidate Accepted</p>
+      <form method="POST" action="/admin/action/{{ r[0] }}/reject">
+        <button type="submit" class="btn-reject">Revoke & Reject</button>
+      </form>
+    </div>
+    {% else %}
+    <div class="card" style="margin-top:1rem;background:#fef2f2;border:1px solid #fecaca;">
+      <p style="color:#dc2626;font-weight:600;margin:0;">❌ Candidate Rejected</p>
+    </div>
+    {% endif %}
+
+    <a href="/admin" class="btn-primary" style="display:inline-block;margin-top:1.5rem;">← Back to Admin</a>
+  </div>
+</body>
+</html>

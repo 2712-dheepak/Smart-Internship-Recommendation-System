@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Intern Availability</title>
+  <link rel="stylesheet" href="/static/css/style.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <span class="brand">🎯 InternMatch</span>
+    <div>
+      <a href="/">Home</a>
+      <a href="/dashboard">Dashboard</a>
+      <a href="/admin">Admin</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Intern Availability</h1>
+    <p class="subtitle">Current vacancy slots across all internship domains.</p>
+
+    <div class="vacancy-grid">
+      {% for role, total, available in vacancies %}
+      <div class="card vacancy-card">
+        <div class="vacancy-role">{{ role }}</div>
+        <div class="vacancy-slots">
+          <span class="slot-num {% if available == 0 %}slot-full{% elif available <= 2 %}slot-low{% else %}slot-ok{% endif %}">
+            {{ available }}
+          </span>
+          <span class="slot-label">/ {{ total }} slots left</span>
+        </div>
+        <div class="vacancy-bar">
+          <div class="vacancy-fill {% if available == 0 %}fill-red{% elif available <= 2 %}fill-yellow{% else %}fill-green{% endif %}"
+               style="width: {{ (available/total*100)|int }}%"></div>
+        </div>
+        <div class="vacancy-status">
+          {% if available == 0 %}
+            <span class="badge badge-red">Full</span>
+          {% elif available <= 2 %}
+            <span class="badge badge-yellow">Filling Fast</span>
+          {% else %}
+            <span class="badge badge-green">Open</span>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</body>
+</html>

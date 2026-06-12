@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Result – {{ name }}</title>
+  <link rel="stylesheet" href="/static/css/style.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <span class="brand">🎯 InternMatch</span>
+    <div>
+      <a href="/">Home</a>
+      <a href="/dashboard">Dashboard</a>
+      <a href="/admin">Admin</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Results for {{ name }}</h1>
+    <p class="subtitle">Candidate ID: #{{ id }} &nbsp;|&nbsp; Status: <span class="badge badge-yellow">Pending Review</span></p>
+
+    <div class="grid-3">
+      <div class="card stat-card">
+        <div class="stat-label">Overall Score</div>
+        <div class="stat-value">{{ score }}<span class="stat-unit">/100</span></div>
+        <div class="badge {% if score >= 75 %}badge-green{% elif score >= 50 %}badge-yellow{% else %}badge-red{% endif %}">
+          {{ score_label }}
+        </div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-label">Primary Role</div>
+        <div class="role-name">{{ recommended_role }}</div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-label">Secondary Role</div>
+        <div class="role-name secondary">{{ secondary_role }}</div>
+      </div>
+    </div>
+
+    <div class="grid-2" style="margin-top:1.5rem;">
+      <div class="card">
+        <h3>📋 Profile Summary</h3>
+        <table class="info-table">
+          <tr><td>Department</td><td>{{ department }}</td></tr>
+          <tr><td>CGPA</td><td>{{ cgpa }}</td></tr>
+          <tr><td>Projects</td><td>{{ projects }}</td></tr>
+          <tr><td>Certifications</td><td>{{ certifications }}</td></tr>
+          <tr><td>Skills</td><td>{{ skills | join(", ") }}</td></tr>
+        </table>
+      </div>
+
+      <div class="card">
+        <h3>⚠️ Missing Skills for {{ recommended_role }}</h3>
+        {% if missing %}
+          <ul class="tag-list">
+            {% for s in missing %}<li class="tag tag-red">{{ s }}</li>{% endfor %}
+          </ul>
+        {% else %}
+          <p class="success-msg">✅ You have all key skills!</p>
+        {% endif %}
+
+        <h3 style="margin-top:1.2rem;">🗺️ Learning Roadmap</h3>
+        <ol class="roadmap-list">
+          {% for step in roadmap %}<li>{{ step }}</li>{% endfor %}
+        </ol>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:1rem;background:#f0fdf4;border:1px solid #bbf7d0;">
+  <p style="color:#16a34a;font-weight:600;">✅ Candidate profile has been submitted to Admin successfully.</p>
+  <p style="color:#64748b;font-size:0.88rem;margin-top:0.3rem;">Admin will review and take action. Check intern availability at <a href="/availability">Vacancies page</a>.</p>
+</div>
+
+    <a href="/" class="btn-primary" style="display:inline-block;margin-top:1.5rem;">← Back to Home</a>
+  </div>
+</body>
+</html>

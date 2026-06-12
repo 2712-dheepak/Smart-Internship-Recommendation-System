@@ -1,0 +1,401 @@
+cgpa,projects,certifications,experience_level,skills,role
+5.91,5,2,2,"Azure, Cloud Architecture, GCP, Dart, Adobe XD",Cloud Computing Intern
+9.86,1,3,1,"Dart, Firebase, Flutter, Statistics, AWS",Flutter Developer Intern
+8.97,4,1,2,"Python, Data Visualization, Statistics, HTML, TensorFlow",Data Science Intern
+5.64,0,3,0,"Pandas, Data Visualization, Statistics, Adobe XD, Terraform",Data Science Intern
+6.87,5,3,2,"Excel, Recruitment, Communication, Azure, Firebase",HR Operations Intern
+7.7,5,3,2,"Pandas, Machine Learning, TensorFlow, Mobile Development, Wireframing",AI/ML Engineer Intern
+9.45,2,2,1,"Flutter, Dart, Mobile Development, Machine Learning, CSS",Flutter Developer Intern
+7.69,2,3,0,"Recruitment, MS Office, Excel, JavaScript, Jenkins",HR Operations Intern
+6.76,5,2,0,"TensorFlow, Machine Learning, NumPy, Linux, Wireframing",AI/ML Engineer Intern
+6.83,1,2,1,"Wireframing, Prototyping, Adobe XD, Python, Data Visualization",UI/UX Design Intern
+8.65,3,3,0,"TensorFlow, Python, Machine Learning, Bash, Linux",AI/ML Engineer Intern
+8.05,2,0,1,"Statistics, Python, Data Visualization, Machine Learning, User Research",Data Science Intern
+8.09,1,2,0,"Pandas, TensorFlow, Python, CI/CD, MongoDB",AI/ML Engineer Intern
+5.68,0,0,0,"Machine Learning, Python, Pandas, CI/CD, Communication",AI/ML Engineer Intern
+9.81,3,2,1,"NumPy, TensorFlow, Python, HTML, User Research",AI/ML Engineer Intern
+9.2,1,1,0,"Terraform, Azure, GCP, Mobile Development, Statistics",Cloud Computing Intern
+7.19,0,0,0,"Figma, Prototyping, Wireframing, MS Office, Mobile Development",UI/UX Design Intern
+5.98,4,3,1,"Linux, CI/CD, Jenkins, Node.js, Mobile Development",DevOps Intern
+9.94,0,2,0,"Flutter, Firebase, Dart, React, Cloud Architecture",Flutter Developer Intern
+6.71,1,1,1,"SQL, Data Visualization, Statistics, Azure, Wireframing",Data Science Intern
+9.6,5,2,1,"Linux, Jenkins, Docker, React, Adobe XD",DevOps Intern
+8.5,1,0,1,"HTML, Node.js, React, Excel, Recruitment",Full Stack Developer Intern
+7.17,5,1,1,"HTML, MongoDB, React, Jenkins, SQL",Full Stack Developer Intern
+7.04,0,3,1,"Flutter, Mobile Development, Dart, GCP, Pandas",Flutter Developer Intern
+6.28,0,2,2,"MongoDB, HTML, Node.js, AWS, Adobe XD",Full Stack Developer Intern
+8.96,5,0,1,"JavaScript, React, Node.js, Recruitment, Azure",Full Stack Developer Intern
+8.79,0,1,2,"React, JavaScript, MongoDB, Dart, Mobile Development",Full Stack Developer Intern
+6.53,2,1,1,"Node.js, React, MongoDB, Communication, Dart",Full Stack Developer Intern
+5.55,2,2,1,"CSS, JavaScript, MongoDB, Terraform, Jenkins",Full Stack Developer Intern
+5.81,2,0,1,"JavaScript, React, MongoDB, Wireframing, Cloud Architecture",Full Stack Developer Intern
+8.82,0,3,2,"HR Policies, Excel, Recruitment, React, Cloud Architecture",HR Operations Intern
+6.42,4,0,0,"JavaScript, MongoDB, React, Linux, Bash",Full Stack Developer Intern
+5.97,4,2,2,"User Research, Prototyping, Figma, Docker, Machine Learning",UI/UX Design Intern
+7.21,3,3,0,"NumPy, Python, Machine Learning, CI/CD, MongoDB",AI/ML Engineer Intern
+8.09,5,1,0,"Wireframing, Prototyping, User Research, Machine Learning, HR Policies",UI/UX Design Intern
+6.8,3,0,2,"User Research, Wireframing, Prototyping, Linux, Machine Learning",UI/UX Design Intern
+6.61,2,1,0,"Cloud Architecture, AWS, Terraform, Dart, JavaScript",Cloud Computing Intern
+5.68,1,3,2,"Flutter, Dart, Firebase, Wireframing, Azure",Flutter Developer Intern
+6.93,1,0,0,"Pandas, TensorFlow, NumPy, Statistics, Docker",AI/ML Engineer Intern
+8.15,0,0,1,"Statistics, Python, Data Visualization, CSS, NumPy",Data Science Intern
+5.76,0,0,2,"Azure, Terraform, Cloud Architecture, Firebase, MongoDB",Cloud Computing Intern
+6.64,5,3,2,"Mobile Development, Firebase, Flutter, CI/CD, Excel",Flutter Developer Intern
+9.46,1,0,2,"Wireframing, Figma, Prototyping, NumPy, HR Policies",UI/UX Design Intern
+8.89,5,3,1,"Terraform, AWS, GCP, Pandas, Machine Learning",Cloud Computing Intern
+9.34,4,0,2,"Mobile Development, Dart, Flutter, Wireframing, CI/CD",Flutter Developer Intern
+6.22,0,0,0,"Firebase, Flutter, Dart, CI/CD, Wireframing",Flutter Developer Intern
+8.56,1,1,2,"Figma, User Research, Prototyping, Jenkins, MongoDB",UI/UX Design Intern
+9.2,1,2,0,"Azure, Cloud Architecture, Terraform, Docker, Bash",Cloud Computing Intern
+6.49,5,3,0,"MS Office, HR Policies, Excel, Mobile Development, Docker",HR Operations Intern
+7.81,0,3,1,"MS Office, HR Policies, Communication, Data Visualization, Figma",HR Operations Intern
+7.32,5,3,2,"Wireframing, Figma, User Research, MS Office, MongoDB",UI/UX Design Intern
+7.21,2,0,2,"Python, NumPy, TensorFlow, Flutter, SQL",AI/ML Engineer Intern
+8.38,0,2,2,"Adobe XD, Wireframing, User Research, SQL, NumPy",UI/UX Design Intern
+9.08,3,0,0,"Communication, HR Policies, Excel, MongoDB, Linux",HR Operations Intern
+6.04,5,2,0,"React, Node.js, JavaScript, Machine Learning, Mobile Development",Full Stack Developer Intern
+5.99,4,1,0,"Wireframing, User Research, Adobe XD, MongoDB, CI/CD",UI/UX Design Intern
+6.9,3,1,1,"Azure, AWS, GCP, Prototyping, Jenkins",Cloud Computing Intern
+8.25,1,0,0,"Statistics, SQL, Pandas, Mobile Development, Bash",Data Science Intern
+6.66,4,0,0,"SQL, Data Visualization, Statistics, React, Adobe XD",Data Science Intern
+9.24,3,0,2,"Jenkins, Bash, CI/CD, HTML, MongoDB",DevOps Intern
+7.22,3,2,1,"Communication, Recruitment, MS Office, Statistics, AWS",HR Operations Intern
+6.76,1,3,1,"Adobe XD, Wireframing, Figma, React, Machine Learning",UI/UX Design Intern
+8.09,4,1,0,"Terraform, AWS, Cloud Architecture, SQL, Prototyping",Cloud Computing Intern
+6.45,5,2,1,"Mobile Development, Flutter, Dart, Prototyping, User Research",Flutter Developer Intern
+7.36,5,2,0,"Adobe XD, User Research, Prototyping, CSS, MS Office",UI/UX Design Intern
+6.6,1,3,2,"Figma, Prototyping, Wireframing, Statistics, Data Visualization",UI/UX Design Intern
+8.56,4,3,0,"TensorFlow, Machine Learning, Python, AWS, Adobe XD",AI/ML Engineer Intern
+6.05,5,3,1,"Azure, Cloud Architecture, Terraform, CSS, Data Visualization",Cloud Computing Intern
+5.56,4,2,1,"TensorFlow, Pandas, Machine Learning, JavaScript, Jenkins",AI/ML Engineer Intern
+7.79,5,2,2,"MS Office, Recruitment, Excel, Pandas, Node.js",HR Operations Intern
+9.25,5,1,0,"User Research, Adobe XD, Figma, MS Office, Azure",UI/UX Design Intern
+5.97,1,2,1,"SQL, Pandas, Statistics, Wireframing, Firebase",Data Science Intern
+9.7,4,0,0,"Recruitment, Communication, HR Policies, Node.js, CI/CD",HR Operations Intern
+7.58,3,0,0,"Docker, Linux, CI/CD, MS Office, Python",DevOps Intern
+9.34,2,3,1,"Python, Statistics, Pandas, Communication, Mobile Development",Data Science Intern
+9.85,4,0,0,"Data Visualization, Pandas, SQL, React, NumPy",Data Science Intern
+8.87,3,3,2,"Python, Pandas, Statistics, GCP, CSS",Data Science Intern
+7.17,0,2,1,"Excel, Communication, MS Office, TensorFlow, Python",HR Operations Intern
+8.19,4,3,2,"JavaScript, React, HTML, Firebase, Prototyping",Full Stack Developer Intern
+7.21,2,0,0,"Figma, Wireframing, User Research, Terraform, Docker",UI/UX Design Intern
+9.91,2,0,0,"Python, TensorFlow, NumPy, Cloud Architecture, Communication",AI/ML Engineer Intern
+5.5,2,2,1,"Communication, HR Policies, Recruitment, React, Docker",HR Operations Intern
+5.71,0,3,0,"Recruitment, Excel, MS Office, NumPy, HTML",HR Operations Intern
+5.65,2,0,1,"Docker, Jenkins, Bash, Firebase, NumPy",DevOps Intern
+5.82,0,1,0,"MS Office, Recruitment, Excel, Cloud Architecture, Firebase",HR Operations Intern
+6.75,4,0,0,"Wireframing, Figma, User Research, CSS, Statistics",UI/UX Design Intern
+8.22,1,1,1,"Machine Learning, Python, Pandas, HTML, Linux",AI/ML Engineer Intern
+9.56,5,2,1,"Mobile Development, Firebase, Flutter, Python, Docker",Flutter Developer Intern
+9.5,1,2,0,"Recruitment, Excel, HR Policies, Statistics, Data Visualization",HR Operations Intern
+7.69,2,2,2,"CI/CD, Docker, Linux, User Research, Mobile Development",DevOps Intern
+8.93,2,2,2,"Figma, User Research, Wireframing, Communication, Terraform",UI/UX Design Intern
+6.17,4,0,0,"CSS, Node.js, JavaScript, Wireframing, Pandas",Full Stack Developer Intern
+7.49,2,2,0,"Mobile Development, Flutter, Firebase, User Research, Excel",Flutter Developer Intern
+8.62,1,3,1,"HTML, MongoDB, CSS, Dart, User Research",Full Stack Developer Intern
+7.33,5,2,1,"Wireframing, User Research, Figma, Machine Learning, Excel",UI/UX Design Intern
+7.64,0,0,0,"HTML, CSS, JavaScript, Python, TensorFlow",Full Stack Developer Intern
+5.74,3,0,2,"Docker, CI/CD, Jenkins, GCP, Prototyping",DevOps Intern
+5.69,4,0,2,"TensorFlow, Pandas, NumPy, CSS, Mobile Development",AI/ML Engineer Intern
+6.34,4,0,2,"NumPy, Python, Pandas, Docker, Firebase",AI/ML Engineer Intern
+6.0,1,0,2,"Statistics, SQL, Pandas, Dart, Linux",Data Science Intern
+7.46,4,0,0,"Prototyping, Wireframing, Figma, Node.js, MongoDB",UI/UX Design Intern
+9.74,4,3,1,"Terraform, Cloud Architecture, AWS, MongoDB, User Research",Cloud Computing Intern
+8.6,1,0,1,"MongoDB, React, Node.js, Bash, TensorFlow",Full Stack Developer Intern
+8.47,0,3,2,"Adobe XD, Wireframing, Figma, Node.js, Terraform",UI/UX Design Intern
+6.23,1,1,0,"Flutter, Dart, Firebase, Wireframing, Adobe XD",Flutter Developer Intern
+7.27,4,1,2,"CI/CD, Docker, Bash, CSS, Statistics",DevOps Intern
+8.11,2,3,1,"CSS, MongoDB, HTML, MS Office, AWS",Full Stack Developer Intern
+8.77,4,3,1,"React, JavaScript, MongoDB, Bash, Jenkins",Full Stack Developer Intern
+9.53,4,0,2,"Mobile Development, Flutter, Dart, NumPy, Linux",Flutter Developer Intern
+7.81,0,2,0,"HTML, CSS, Node.js, Firebase, Statistics",Full Stack Developer Intern
+6.06,5,1,0,"Python, NumPy, TensorFlow, JavaScript, Communication",AI/ML Engineer Intern
+9.17,0,0,2,"Jenkins, Bash, CI/CD, Communication, Azure",DevOps Intern
+9.75,4,3,1,"Jenkins, Linux, Bash, Python, Communication",DevOps Intern
+9.86,2,2,2,"Cloud Architecture, AWS, Azure, Docker, Figma",Cloud Computing Intern
+6.46,2,3,0,"MongoDB, React, JavaScript, AWS, SQL",Full Stack Developer Intern
+7.45,3,0,2,"Node.js, JavaScript, CSS, Machine Learning, Pandas",Full Stack Developer Intern
+9.2,2,2,0,"Python, Pandas, NumPy, Jenkins, Cloud Architecture",AI/ML Engineer Intern
+7.39,5,3,2,"Excel, Communication, HR Policies, Statistics, Flutter",HR Operations Intern
+6.89,3,2,1,"SQL, Statistics, Pandas, Terraform, Excel",Data Science Intern
+7.48,5,0,0,"Azure, GCP, Terraform, Excel, Wireframing",Cloud Computing Intern
+9.82,2,0,0,"Terraform, Azure, AWS, Linux, Flutter",Cloud Computing Intern
+8.98,4,0,0,"Terraform, GCP, Cloud Architecture, JavaScript, Python",Cloud Computing Intern
+6.76,1,3,1,"Docker, Jenkins, Bash, Node.js, Cloud Architecture",DevOps Intern
+5.97,0,3,0,"Bash, Docker, Linux, TensorFlow, Azure",DevOps Intern
+9.41,1,3,2,"Statistics, Data Visualization, SQL, Wireframing, Linux",Data Science Intern
+6.48,4,2,1,"Cloud Architecture, GCP, Terraform, Excel, SQL",Cloud Computing Intern
+5.6,2,0,2,"Docker, Jenkins, CI/CD, Mobile Development, Figma",DevOps Intern
+6.45,2,0,1,"Linux, Jenkins, Bash, Terraform, NumPy",DevOps Intern
+9.77,1,3,1,"Firebase, Mobile Development, Flutter, Terraform, CI/CD",Flutter Developer Intern
+8.61,2,2,0,"MS Office, Excel, HR Policies, JavaScript, SQL",HR Operations Intern
+9.74,3,2,0,"React, JavaScript, HTML, Data Visualization, HR Policies",Full Stack Developer Intern
+5.87,1,0,2,"Mobile Development, Dart, Flutter, Statistics, Prototyping",Flutter Developer Intern
+6.98,3,2,0,"Statistics, Python, Pandas, Firebase, Linux",Data Science Intern
+5.89,0,2,2,"MS Office, Recruitment, HR Policies, Node.js, Cloud Architecture",HR Operations Intern
+8.15,4,0,0,"Prototyping, Wireframing, Figma, Dart, AWS",UI/UX Design Intern
+7.52,0,3,2,"Wireframing, Figma, Prototyping, Bash, Docker",UI/UX Design Intern
+5.69,3,2,0,"Firebase, Dart, Mobile Development, GCP, Adobe XD",Flutter Developer Intern
+6.24,3,2,2,"Linux, Bash, Docker, SQL, MS Office",DevOps Intern
+8.61,0,1,0,"Jenkins, Docker, CI/CD, Prototyping, CSS",DevOps Intern
+5.55,2,0,0,"SQL, Data Visualization, Python, Node.js, Adobe XD",Data Science Intern
+6.12,1,1,1,"Pandas, SQL, Statistics, MongoDB, Azure",Data Science Intern
+7.39,1,1,2,"Wireframing, User Research, Prototyping, CI/CD, React",UI/UX Design Intern
+7.1,4,1,1,"Figma, Wireframing, User Research, Dart, Docker",UI/UX Design Intern
+8.55,4,2,1,"MS Office, Communication, Recruitment, Prototyping, Node.js",HR Operations Intern
+8.52,5,2,1,"HTML, React, JavaScript, NumPy, Bash",Full Stack Developer Intern
+5.95,0,0,1,"NumPy, Python, TensorFlow, Excel, Jenkins",AI/ML Engineer Intern
+8.05,5,2,0,"MongoDB, JavaScript, Node.js, Flutter, Prototyping",Full Stack Developer Intern
+9.6,4,3,0,"Docker, Jenkins, Bash, JavaScript, NumPy",DevOps Intern
+7.91,5,1,0,"Linux, CI/CD, Bash, User Research, CSS",DevOps Intern
+9.5,3,3,0,"Firebase, Mobile Development, Flutter, Machine Learning, MongoDB",Flutter Developer Intern
+6.96,0,1,1,"GCP, Cloud Architecture, Azure, HR Policies, CSS",Cloud Computing Intern
+7.29,3,0,0,"GCP, Terraform, AWS, Pandas, TensorFlow",Cloud Computing Intern
+9.27,4,2,1,"AWS, GCP, Terraform, Communication, Machine Learning",Cloud Computing Intern
+7.25,0,3,2,"Recruitment, MS Office, Excel, Cloud Architecture, AWS",HR Operations Intern
+8.79,4,2,0,"Communication, MS Office, HR Policies, Linux, Mobile Development",HR Operations Intern
+6.19,2,3,2,"User Research, Wireframing, Adobe XD, AWS, TensorFlow",UI/UX Design Intern
+6.63,1,3,2,"Flutter, Mobile Development, Firebase, MongoDB, CSS",Flutter Developer Intern
+6.31,0,2,0,"GCP, Terraform, Cloud Architecture, Wireframing, HR Policies",Cloud Computing Intern
+9.23,5,1,2,"Pandas, Data Visualization, Python, AWS, Excel",Data Science Intern
+8.05,4,2,1,"Python, Statistics, Pandas, HTML, AWS",Data Science Intern
+7.65,1,0,1,"Mobile Development, Dart, Flutter, Terraform, MS Office",Flutter Developer Intern
+7.99,4,2,0,"HR Policies, MS Office, Communication, Pandas, Statistics",HR Operations Intern
+9.68,2,1,1,"Mobile Development, Firebase, Flutter, Communication, Recruitment",Flutter Developer Intern
+6.99,3,2,0,"CSS, React, Node.js, Adobe XD, Pandas",Full Stack Developer Intern
+9.97,3,2,2,"Pandas, Data Visualization, SQL, Azure, Cloud Architecture",Data Science Intern
+7.48,3,0,1,"Jenkins, CI/CD, Linux, Excel, Mobile Development",DevOps Intern
+8.15,1,0,2,"Wireframing, Adobe XD, User Research, React, Dart",UI/UX Design Intern
+9.09,3,0,2,"Cloud Architecture, Terraform, Azure, Communication, Statistics",Cloud Computing Intern
+7.8,5,3,2,"React, CSS, Node.js, HR Policies, CI/CD",Full Stack Developer Intern
+9.03,0,3,2,"Terraform, Azure, AWS, Prototyping, SQL",Cloud Computing Intern
+6.98,0,1,2,"Machine Learning, Python, NumPy, Communication, Adobe XD",AI/ML Engineer Intern
+9.82,5,2,2,"Python, Data Visualization, SQL, HTML, AWS",Data Science Intern
+7.07,1,3,2,"Pandas, Python, Machine Learning, Docker, MongoDB",AI/ML Engineer Intern
+6.38,1,1,0,"HR Policies, Communication, Excel, Bash, Dart",HR Operations Intern
+8.8,0,1,2,"MongoDB, HTML, CSS, Mobile Development, Excel",Full Stack Developer Intern
+9.95,1,1,2,"TensorFlow, Machine Learning, Pandas, Firebase, CSS",AI/ML Engineer Intern
+8.82,1,1,0,"Recruitment, HR Policies, Excel, MongoDB, Statistics",HR Operations Intern
+9.59,0,2,2,"Terraform, AWS, Cloud Architecture, React, NumPy",Cloud Computing Intern
+6.73,3,2,1,"Cloud Architecture, Azure, GCP, HR Policies, Dart",Cloud Computing Intern
+8.36,1,2,1,"NumPy, Machine Learning, TensorFlow, GCP, Node.js",AI/ML Engineer Intern
+7.24,4,3,1,"Data Visualization, Statistics, Pandas, Dart, Wireframing",Data Science Intern
+8.12,2,3,0,"MS Office, Recruitment, HR Policies, JavaScript, NumPy",HR Operations Intern
+7.03,3,3,0,"Adobe XD, Prototyping, Figma, Node.js, TensorFlow",UI/UX Design Intern
+7.91,5,3,1,"CI/CD, Docker, Jenkins, TensorFlow, Figma",DevOps Intern
+7.27,2,1,2,"Statistics, Data Visualization, Python, TensorFlow, Prototyping",Data Science Intern
+5.96,2,1,2,"Adobe XD, Prototyping, User Research, AWS, Statistics",UI/UX Design Intern
+9.12,3,0,1,"CSS, MongoDB, React, SQL, Prototyping",Full Stack Developer Intern
+7.68,2,1,0,"Mobile Development, Firebase, Dart, React, GCP",Flutter Developer Intern
+7.32,0,2,1,"Firebase, Flutter, Dart, NumPy, Wireframing",Flutter Developer Intern
+9.84,4,0,1,"Data Visualization, Statistics, Python, Excel, Terraform",Data Science Intern
+5.68,4,0,0,"Mobile Development, Flutter, Firebase, Communication, Cloud Architecture",Flutter Developer Intern
+8.54,5,2,1,"User Research, Adobe XD, Prototyping, AWS, Flutter",UI/UX Design Intern
+7.94,0,2,1,"Docker, CI/CD, Bash, Pandas, Adobe XD",DevOps Intern
+5.67,2,2,1,"Machine Learning, TensorFlow, NumPy, Figma, Dart",AI/ML Engineer Intern
+6.87,1,1,1,"Cloud Architecture, GCP, Azure, SQL, Docker",Cloud Computing Intern
+5.62,3,1,0,"Dart, Flutter, Firebase, Bash, Data Visualization",Flutter Developer Intern
+5.79,3,3,0,"Prototyping, Wireframing, User Research, Python, Bash",UI/UX Design Intern
+7.33,4,3,1,"Python, Pandas, Statistics, Node.js, Cloud Architecture",Data Science Intern
+7.77,2,2,1,"Pandas, TensorFlow, Python, HTML, Jenkins",AI/ML Engineer Intern
+6.94,2,1,1,"AWS, GCP, Cloud Architecture, Statistics, React",Cloud Computing Intern
+8.55,5,1,1,"GCP, Cloud Architecture, Azure, Mobile Development, Node.js",Cloud Computing Intern
+6.48,2,0,1,"Figma, Prototyping, User Research, Machine Learning, Node.js",UI/UX Design Intern
+8.95,2,2,2,"Dart, Flutter, Firebase, Data Visualization, CSS",Flutter Developer Intern
+9.68,3,0,1,"Node.js, CSS, JavaScript, Cloud Architecture, AWS",Full Stack Developer Intern
+6.83,1,2,1,"Pandas, Data Visualization, Statistics, Excel, Dart",Data Science Intern
+9.99,2,3,0,"Cloud Architecture, GCP, Azure, Python, SQL",Cloud Computing Intern
+8.38,3,3,1,"Mobile Development, Dart, Flutter, SQL, Wireframing",Flutter Developer Intern
+6.12,0,2,0,"User Research, Prototyping, Adobe XD, MS Office, Flutter",UI/UX Design Intern
+9.85,4,2,0,"Figma, Adobe XD, Wireframing, Linux, Bash",UI/UX Design Intern
+6.79,0,0,0,"React, JavaScript, Node.js, Excel, Machine Learning",Full Stack Developer Intern
+6.24,2,1,1,"Node.js, React, MongoDB, Terraform, TensorFlow",Full Stack Developer Intern
+6.14,5,3,2,"GCP, Cloud Architecture, Terraform, MS Office, Machine Learning",Cloud Computing Intern
+8.59,2,3,1,"Wireframing, Adobe XD, User Research, HR Policies, Terraform",UI/UX Design Intern
+7.07,5,3,1,"HTML, React, MongoDB, Mobile Development, HR Policies",Full Stack Developer Intern
+7.85,1,3,0,"Figma, Wireframing, Adobe XD, Cloud Architecture, Terraform",UI/UX Design Intern
+6.08,5,2,2,"Node.js, HTML, MongoDB, Pandas, Linux",Full Stack Developer Intern
+7.33,2,2,2,"User Research, Prototyping, Figma, Node.js, CSS",UI/UX Design Intern
+8.66,0,1,0,"HR Policies, Communication, Excel, Cloud Architecture, Data Visualization",HR Operations Intern
+7.33,4,1,2,"Pandas, TensorFlow, NumPy, GCP, Statistics",AI/ML Engineer Intern
+6.45,2,3,1,"SQL, Python, Data Visualization, Jenkins, Machine Learning",Data Science Intern
+8.6,1,3,2,"Cloud Architecture, AWS, Azure, Docker, Data Visualization",Cloud Computing Intern
+7.75,5,3,1,"Flutter, Mobile Development, Dart, Wireframing, Statistics",Flutter Developer Intern
+7.38,4,1,2,"Pandas, TensorFlow, NumPy, MS Office, Data Visualization",AI/ML Engineer Intern
+7.64,2,0,1,"TensorFlow, NumPy, Machine Learning, Figma, Firebase",AI/ML Engineer Intern
+6.45,2,1,1,"CI/CD, Linux, Docker, HR Policies, User Research",DevOps Intern
+6.7,5,3,1,"Dart, Mobile Development, Flutter, GCP, CI/CD",Flutter Developer Intern
+5.96,3,1,1,"HR Policies, Communication, MS Office, Statistics, Flutter",HR Operations Intern
+9.26,3,3,1,"Jenkins, Linux, Bash, Flutter, JavaScript",DevOps Intern
+5.57,5,2,1,"Terraform, GCP, Azure, Firebase, User Research",Cloud Computing Intern
+8.98,0,1,1,"JavaScript, Node.js, MongoDB, Communication, Flutter",Full Stack Developer Intern
+9.64,5,1,1,"Recruitment, Excel, HR Policies, HTML, Prototyping",HR Operations Intern
+7.03,3,0,2,"CSS, MongoDB, Node.js, MS Office, Terraform",Full Stack Developer Intern
+6.94,3,1,0,"Jenkins, Bash, CI/CD, AWS, MongoDB",DevOps Intern
+8.58,2,0,0,"Node.js, JavaScript, MongoDB, NumPy, Pandas",Full Stack Developer Intern
+7.36,0,1,0,"NumPy, Machine Learning, TensorFlow, Mobile Development, HTML",AI/ML Engineer Intern
+8.12,4,3,1,"Communication, MS Office, HR Policies, Terraform, Figma",HR Operations Intern
+9.5,5,1,0,"React, HTML, Node.js, Docker, Python",Full Stack Developer Intern
+6.63,0,3,0,"Wireframing, User Research, Adobe XD, Communication, HTML",UI/UX Design Intern
+5.68,1,0,1,"Flutter, Mobile Development, Firebase, Communication, GCP",Flutter Developer Intern
+6.38,1,3,2,"Python, Pandas, NumPy, SQL, Flutter",AI/ML Engineer Intern
+6.43,0,3,1,"GCP, Azure, Terraform, Statistics, JavaScript",Cloud Computing Intern
+6.49,0,2,2,"Terraform, Azure, AWS, Node.js, Adobe XD",Cloud Computing Intern
+8.9,4,1,0,"Docker, Jenkins, Bash, Flutter, Node.js",DevOps Intern
+7.76,5,1,0,"TensorFlow, Pandas, Machine Learning, Cloud Architecture, Adobe XD",AI/ML Engineer Intern
+9.71,2,2,2,"Node.js, HTML, React, MS Office, User Research",Full Stack Developer Intern
+9.68,0,1,0,"Node.js, MongoDB, HTML, NumPy, Terraform",Full Stack Developer Intern
+6.11,2,0,1,"HR Policies, Recruitment, MS Office, Prototyping, Machine Learning",HR Operations Intern
+7.83,0,1,1,"HR Policies, Excel, MS Office, CSS, Cloud Architecture",HR Operations Intern
+7.74,5,1,1,"Cloud Architecture, GCP, AWS, Figma, Jenkins",Cloud Computing Intern
+9.5,1,3,0,"CSS, MongoDB, React, GCP, AWS",Full Stack Developer Intern
+9.89,3,0,2,"Pandas, SQL, Data Visualization, CSS, GCP",Data Science Intern
+7.0,3,0,0,"Recruitment, Excel, Communication, MongoDB, Adobe XD",HR Operations Intern
+6.09,3,3,1,"Machine Learning, Python, TensorFlow, Jenkins, Adobe XD",AI/ML Engineer Intern
+9.86,4,1,0,"SQL, Pandas, Data Visualization, React, GCP",Data Science Intern
+6.87,4,0,1,"Python, Statistics, SQL, Cloud Architecture, Docker",Data Science Intern
+7.65,3,2,1,"Pandas, Statistics, Data Visualization, Figma, Azure",Data Science Intern
+9.33,3,3,2,"Data Visualization, SQL, Statistics, HTML, Prototyping",Data Science Intern
+7.36,0,2,1,"Adobe XD, Wireframing, Prototyping, CSS, TensorFlow",UI/UX Design Intern
+7.09,0,1,0,"CSS, HTML, MongoDB, Azure, Flutter",Full Stack Developer Intern
+7.9,4,2,1,"Azure, Terraform, AWS, Jenkins, MongoDB",Cloud Computing Intern
+7.54,2,3,1,"Dart, Mobile Development, Firebase, Adobe XD, Azure",Flutter Developer Intern
+9.74,1,2,1,"Pandas, Statistics, Python, Adobe XD, Mobile Development",Data Science Intern
+7.67,3,0,0,"Figma, User Research, Adobe XD, Mobile Development, TensorFlow",UI/UX Design Intern
+5.55,4,3,2,"Cloud Architecture, AWS, GCP, Docker, Dart",Cloud Computing Intern
+8.32,5,1,0,"Terraform, GCP, Azure, Statistics, Wireframing",Cloud Computing Intern
+8.87,2,3,1,"Adobe XD, User Research, Wireframing, Docker, HTML",UI/UX Design Intern
+9.44,5,1,0,"Figma, Wireframing, User Research, Azure, Flutter",UI/UX Design Intern
+9.53,4,0,1,"Pandas, NumPy, Python, Azure, Cloud Architecture",AI/ML Engineer Intern
+9.68,2,1,2,"Mobile Development, Firebase, Dart, Jenkins, Communication",Flutter Developer Intern
+8.23,5,0,1,"Bash, Docker, CI/CD, CSS, GCP",DevOps Intern
+5.68,3,1,2,"Adobe XD, User Research, Figma, Firebase, Dart",UI/UX Design Intern
+6.55,3,2,2,"Node.js, CSS, MongoDB, Jenkins, Python",Full Stack Developer Intern
+7.93,4,1,0,"Python, NumPy, Machine Learning, Adobe XD, Node.js",AI/ML Engineer Intern
+9.89,0,1,2,"MS Office, Recruitment, HR Policies, GCP, Azure",HR Operations Intern
+7.82,2,0,1,"Communication, Recruitment, MS Office, Jenkins, MongoDB",HR Operations Intern
+7.84,2,0,0,"CSS, React, MongoDB, CI/CD, Pandas",Full Stack Developer Intern
+7.15,0,2,1,"TensorFlow, Machine Learning, NumPy, Jenkins, HR Policies",AI/ML Engineer Intern
+9.36,4,0,2,"Dart, Firebase, Flutter, Docker, CI/CD",Flutter Developer Intern
+7.97,0,1,0,"Bash, CI/CD, Linux, Figma, Statistics",DevOps Intern
+9.95,1,0,1,"CSS, MongoDB, JavaScript, CI/CD, Excel",Full Stack Developer Intern
+9.78,5,0,1,"NumPy, TensorFlow, Machine Learning, Mobile Development, Adobe XD",AI/ML Engineer Intern
+9.99,4,2,2,"MS Office, Excel, Communication, Adobe XD, Linux",HR Operations Intern
+8.43,3,0,0,"Data Visualization, SQL, Statistics, Terraform, HTML",Data Science Intern
+9.51,2,0,2,"Data Visualization, SQL, Statistics, Dart, Wireframing",Data Science Intern
+6.7,2,2,2,"Machine Learning, TensorFlow, NumPy, Excel, Bash",AI/ML Engineer Intern
+7.1,3,2,2,"Flutter, Dart, Mobile Development, Statistics, Jenkins",Flutter Developer Intern
+9.82,0,1,1,"Cloud Architecture, AWS, GCP, Recruitment, Machine Learning",Cloud Computing Intern
+8.02,4,2,2,"Recruitment, HR Policies, MS Office, React, Bash",HR Operations Intern
+7.3,5,1,0,"Dart, Firebase, Mobile Development, User Research, React",Flutter Developer Intern
+6.53,4,2,1,"Adobe XD, Prototyping, Wireframing, AWS, MS Office",UI/UX Design Intern
+6.09,4,3,2,"Machine Learning, Python, Pandas, CSS, HR Policies",AI/ML Engineer Intern
+9.73,2,0,1,"Jenkins, Bash, Linux, Excel, Pandas",DevOps Intern
+7.71,4,3,2,"AWS, GCP, Terraform, SQL, HTML",Cloud Computing Intern
+8.7,5,3,2,"Pandas, Data Visualization, SQL, NumPy, Flutter",Data Science Intern
+9.69,4,1,2,"CSS, React, MongoDB, Dart, GCP",Full Stack Developer Intern
+7.51,3,3,1,"AWS, Cloud Architecture, Terraform, Figma, Communication",Cloud Computing Intern
+5.75,5,3,0,"Prototyping, Adobe XD, Figma, JavaScript, AWS",UI/UX Design Intern
+5.95,1,3,2,"Figma, User Research, Adobe XD, Machine Learning, Mobile Development",UI/UX Design Intern
+6.26,4,3,0,"Bash, Linux, Jenkins, Statistics, Excel",DevOps Intern
+5.73,3,1,1,"SQL, Pandas, Python, TensorFlow, User Research",Data Science Intern
+7.34,2,1,2,"Wireframing, User Research, Figma, HR Policies, Firebase",UI/UX Design Intern
+8.67,2,1,1,"NumPy, Python, Machine Learning, Linux, Prototyping",AI/ML Engineer Intern
+6.38,3,3,1,"Jenkins, CI/CD, Docker, User Research, Recruitment",DevOps Intern
+8.91,4,0,2,"Python, Pandas, SQL, GCP, Bash",Data Science Intern
+7.98,1,2,2,"HR Policies, MS Office, Communication, Adobe XD, CI/CD",HR Operations Intern
+6.42,3,0,1,"AWS, Terraform, Cloud Architecture, Prototyping, SQL",Cloud Computing Intern
+6.31,0,2,2,"MS Office, Excel, Recruitment, Jenkins, Figma",HR Operations Intern
+7.79,1,2,1,"Cloud Architecture, AWS, Terraform, Firebase, Adobe XD",Cloud Computing Intern
+9.03,2,3,0,"Statistics, Python, SQL, Excel, Terraform",Data Science Intern
+7.51,3,0,1,"HTML, MongoDB, Node.js, Flutter, HR Policies",Full Stack Developer Intern
+5.79,3,1,2,"Cloud Architecture, Azure, Terraform, Docker, Mobile Development",Cloud Computing Intern
+7.39,1,3,2,"Prototyping, Wireframing, Adobe XD, Firebase, Cloud Architecture",UI/UX Design Intern
+9.6,0,1,2,"React, Node.js, JavaScript, SQL, Cloud Architecture",Full Stack Developer Intern
+9.69,4,2,0,"MS Office, Recruitment, Excel, Bash, Linux",HR Operations Intern
+8.43,1,2,0,"Terraform, GCP, Azure, MongoDB, Adobe XD",Cloud Computing Intern
+6.96,4,1,0,"Dart, Firebase, Flutter, Azure, HTML",Flutter Developer Intern
+8.45,3,2,2,"Firebase, Mobile Development, Flutter, HTML, SQL",Flutter Developer Intern
+8.99,0,0,2,"Terraform, GCP, AWS, Pandas, NumPy",Cloud Computing Intern
+9.56,5,3,1,"AWS, Azure, Terraform, Data Visualization, Flutter",Cloud Computing Intern
+7.52,4,3,2,"Mobile Development, Flutter, Firebase, MongoDB, Communication",Flutter Developer Intern
+5.77,1,2,0,"NumPy, TensorFlow, Python, JavaScript, Prototyping",AI/ML Engineer Intern
+9.68,1,1,1,"Dart, Mobile Development, Flutter, User Research, Linux",Flutter Developer Intern
+9.24,2,0,0,"Pandas, TensorFlow, NumPy, Data Visualization, Jenkins",AI/ML Engineer Intern
+8.87,5,0,1,"Flutter, Firebase, Dart, MS Office, Statistics",Flutter Developer Intern
+7.08,5,3,1,"Flutter, Mobile Development, Dart, Data Visualization, User Research",Flutter Developer Intern
+7.85,1,3,0,"Adobe XD, Prototyping, Wireframing, Statistics, CSS",UI/UX Design Intern
+9.75,4,0,1,"AWS, Cloud Architecture, Terraform, Mobile Development, Node.js",Cloud Computing Intern
+9.21,2,1,0,"Wireframing, Adobe XD, Prototyping, HTML, Docker",UI/UX Design Intern
+6.29,3,2,0,"Azure, Cloud Architecture, AWS, User Research, CSS",Cloud Computing Intern
+8.07,0,2,2,"GCP, Cloud Architecture, Azure, Recruitment, Bash",Cloud Computing Intern
+9.94,1,3,0,"Wireframing, Adobe XD, User Research, Dart, NumPy",UI/UX Design Intern
+8.4,3,0,2,"HR Policies, Communication, MS Office, Bash, Figma",HR Operations Intern
+8.1,2,0,2,"TensorFlow, NumPy, Machine Learning, CI/CD, MongoDB",AI/ML Engineer Intern
+5.6,1,0,1,"Machine Learning, Pandas, TensorFlow, AWS, Docker",AI/ML Engineer Intern
+9.15,3,3,2,"Recruitment, HR Policies, Excel, Firebase, Flutter",HR Operations Intern
+7.2,3,1,0,"CI/CD, Jenkins, Linux, Statistics, Node.js",DevOps Intern
+7.64,5,3,2,"Bash, Linux, CI/CD, Data Visualization, Recruitment",DevOps Intern
+8.18,1,1,0,"MongoDB, Node.js, CSS, Linux, NumPy",Full Stack Developer Intern
+6.75,2,2,0,"Communication, MS Office, Excel, MongoDB, Pandas",HR Operations Intern
+9.93,3,3,2,"Figma, Adobe XD, Wireframing, AWS, CI/CD",UI/UX Design Intern
+5.52,2,3,2,"Firebase, Mobile Development, Flutter, Azure, SQL",Flutter Developer Intern
+9.28,5,3,0,"Communication, HR Policies, MS Office, Python, Data Visualization",HR Operations Intern
+8.49,5,0,0,"Jenkins, Bash, Linux, Python, Figma",DevOps Intern
+9.06,4,2,2,"Dart, Firebase, Flutter, CI/CD, Adobe XD",Flutter Developer Intern
+6.44,5,1,2,"Communication, Recruitment, HR Policies, Cloud Architecture, Flutter",HR Operations Intern
+8.81,1,2,2,"Azure, Cloud Architecture, Terraform, Wireframing, MongoDB",Cloud Computing Intern
+9.16,4,1,1,"MongoDB, React, Node.js, CI/CD, TensorFlow",Full Stack Developer Intern
+8.89,1,2,0,"GCP, Terraform, Azure, Data Visualization, SQL",Cloud Computing Intern
+7.21,3,0,2,"HR Policies, MS Office, Recruitment, Pandas, Flutter",HR Operations Intern
+6.43,5,2,0,"Mobile Development, Firebase, Dart, React, Wireframing",Flutter Developer Intern
+8.27,2,1,1,"Excel, MS Office, HR Policies, Mobile Development, NumPy",HR Operations Intern
+7.11,1,2,1,"Recruitment, MS Office, Excel, Dart, Jenkins",HR Operations Intern
+6.62,0,1,1,"Docker, CI/CD, Bash, MS Office, Firebase",DevOps Intern
+7.96,0,2,0,"Statistics, SQL, Python, MS Office, HR Policies",Data Science Intern
+8.98,1,3,2,"Figma, Wireframing, Prototyping, Communication, Machine Learning",UI/UX Design Intern
+6.74,4,2,1,"Flutter, Mobile Development, Firebase, Azure, Node.js",Flutter Developer Intern
+7.3,3,2,2,"Prototyping, Figma, User Research, Node.js, Pandas",UI/UX Design Intern
+7.58,5,2,2,"TensorFlow, NumPy, Pandas, JavaScript, Data Visualization",AI/ML Engineer Intern
+8.0,1,1,0,"NumPy, TensorFlow, Python, CSS, HR Policies",AI/ML Engineer Intern
+7.61,5,0,1,"TensorFlow, Pandas, NumPy, HTML, Prototyping",AI/ML Engineer Intern
+6.39,0,0,0,"MongoDB, CSS, HTML, Pandas, Recruitment",Full Stack Developer Intern
+7.94,3,0,0,"React, CSS, MongoDB, AWS, NumPy",Full Stack Developer Intern
+6.63,2,3,1,"Node.js, React, HTML, Linux, Jenkins",Full Stack Developer Intern
+8.78,2,2,1,"User Research, Adobe XD, Wireframing, MS Office, Firebase",UI/UX Design Intern
+8.78,4,1,0,"Bash, CI/CD, Linux, Pandas, GCP",DevOps Intern
+9.07,4,1,0,"HR Policies, MS Office, Recruitment, Docker, User Research",HR Operations Intern
+7.85,0,1,2,"NumPy, TensorFlow, Python, SQL, Cloud Architecture",AI/ML Engineer Intern
+7.62,0,2,1,"CSS, MongoDB, JavaScript, Excel, GCP",Full Stack Developer Intern
+9.24,0,0,2,"Python, SQL, Pandas, GCP, Prototyping",Data Science Intern
+6.63,3,1,0,"Flutter, Mobile Development, Firebase, CI/CD, Machine Learning",Flutter Developer Intern
+9.52,2,2,1,"MS Office, Communication, HR Policies, Wireframing, User Research",HR Operations Intern
+8.65,4,3,1,"MS Office, Recruitment, HR Policies, SQL, User Research",HR Operations Intern
+8.35,2,2,0,"Python, Statistics, SQL, Prototyping, Jenkins",Data Science Intern
+7.7,0,1,1,"Statistics, Data Visualization, Python, Linux, TensorFlow",Data Science Intern
+7.57,3,3,0,"Flutter, Mobile Development, Firebase, Python, Recruitment",Flutter Developer Intern
+9.23,2,3,1,"Linux, Bash, CI/CD, HTML, Wireframing",DevOps Intern
+5.56,0,0,0,"CSS, React, MongoDB, Cloud Architecture, HR Policies",Full Stack Developer Intern
+8.56,1,1,0,"Statistics, Pandas, Python, JavaScript, HTML",Data Science Intern
+7.39,0,2,2,"Jenkins, CI/CD, Linux, HR Policies, User Research",DevOps Intern
+5.9,3,2,0,"Mobile Development, Firebase, Flutter, AWS, Statistics",Flutter Developer Intern
+7.09,4,2,2,"Python, TensorFlow, Pandas, MongoDB, HTML",AI/ML Engineer Intern
+9.1,5,1,0,"Mobile Development, Firebase, Dart, User Research, AWS",Flutter Developer Intern
+5.54,1,3,0,"Linux, Bash, CI/CD, Communication, GCP",DevOps Intern
+7.76,3,2,2,"AWS, Cloud Architecture, Azure, Machine Learning, HTML",Cloud Computing Intern
+7.3,0,1,0,"Cloud Architecture, AWS, Terraform, JavaScript, Prototyping",Cloud Computing Intern
+8.2,5,0,0,"HR Policies, MS Office, Communication, Figma, Firebase",HR Operations Intern
+5.72,5,1,2,"Docker, Linux, CI/CD, React, Recruitment",DevOps Intern
+7.58,1,0,1,"MongoDB, Node.js, HTML, Python, Azure",Full Stack Developer Intern
+8.83,3,0,0,"Flutter, Dart, Mobile Development, Cloud Architecture, SQL",Flutter Developer Intern
+8.87,5,3,2,"Python, Machine Learning, TensorFlow, Flutter, Dart",AI/ML Engineer Intern
+8.42,3,3,2,"Data Visualization, Statistics, Pandas, Node.js, Cloud Architecture",Data Science Intern
+6.33,3,2,0,"HTML, CSS, Node.js, Prototyping, SQL",Full Stack Developer Intern
+5.61,5,3,2,"Pandas, Statistics, Data Visualization, Cloud Architecture, Azure",Data Science Intern
+9.69,0,3,2,"Adobe XD, Prototyping, Figma, Statistics, Cloud Architecture",UI/UX Design Intern
+9.47,1,3,0,"Node.js, CSS, HTML, GCP, Prototyping",Full Stack Developer Intern
+9.09,3,1,1,"Node.js, MongoDB, CSS, Python, GCP",Full Stack Developer Intern
+6.78,3,3,2,"Python, SQL, Data Visualization, HR Policies, Communication",Data Science Intern
+8.88,4,3,2,"GCP, AWS, Terraform, JavaScript, User Research",Cloud Computing Intern
+7.63,5,0,0,"Linux, Docker, CI/CD, Wireframing, Python",DevOps Intern
+7.34,3,1,0,"AWS, Cloud Architecture, Azure, CI/CD, CSS",Cloud Computing Intern

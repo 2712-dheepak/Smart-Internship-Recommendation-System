@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="/static/css/style.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <span class="brand">🎯 InternMatch</span>
+    <div><a href="/">Home</a></div>
+  </nav>
+
+  <div class="container" style="max-width:420px;margin-top:4rem;">
+    <div class="card">
+      <h1 style="margin-bottom:0.3rem;">🔐 Admin Login</h1>
+      <p class="subtitle">She Software Solutions</p>
+
+      {% with messages = get_flashed_messages() %}
+        {% if messages %}
+          <div class="alert-red">{{ messages[0] }}</div>
+        {% endif %}
+      {% endwith %}
+
+      <form method="POST">
+        <div class="field">
+          <label>Username</label>
+          <input type="text" name="username" required placeholder="admin"/>
+        </div>
+        <div class="field">
+          <label>Password</label>
+          <input type="password" name="password" required placeholder="••••••••"/>
+        </div>
+        <button type="submit" class="btn-primary" style="width:100%;">Login →</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

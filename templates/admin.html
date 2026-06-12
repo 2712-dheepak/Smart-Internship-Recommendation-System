@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="/static/css/style.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <span class="brand">🎯 InternMatch</span>
+    <div>
+      <a href="/">Home</a>
+      <a href="/availability">Vacancies</a>
+      <a href="/dashboard">Dashboard</a>
+      <a href="/admin/logout" style="color:#fca5a5;">Logout</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Admin Panel</h1>
+
+    <form method="GET" action="/admin" class="search-bar" style="margin-bottom:1rem;">
+      <input type="text" name="search" value="{{ search }}" placeholder="Search by name or department…"/>
+      <button type="submit" class="btn-primary">Search</button>
+      {% if search %}<a href="/admin" class="btn-secondary">Clear</a>{% endif %}
+    </form>
+
+    <div class="card">
+      {% if rows %}
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>#</th><th>Name</th><th>Dept</th><th>CGPA</th>
+            <th>Recommended Role</th><th>Score</th><th>Status</th><th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for r in rows %}
+          <tr>
+            <td>{{ r[0] }}</td>
+            <td>{{ r[1] }}</td>
+            <td>{{ r[2] }}</td>
+            <td>{{ r[3] }}</td>
+            <td>{{ r[10] }}</td>
+            <td>{{ r[12] }}</td>
+            <td>
+              <span class="badge
+                {% if r[16] == 'Accepted' %}badge-green
+                {% elif r[16] == 'Rejected' %}badge-red
+                {% else %}badge-yellow{% endif %}">
+                {{ r[16] }}
+              </span>
+            </td>
+            <td style="display:flex;gap:0.4rem;flex-wrap:wrap;">
+              <a href="/admin/candidate/{{ r[0] }}" class="btn-view">View Report</a>
+              <form method="POST" action="/admin/delete/{{ r[0] }}" style="display:inline;">
+                <button type="submit" class="btn-danger" onclick="return confirm('Delete?')">Delete</button>
+              </form>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+        <p>No candidates found.</p>
+      {% endif %}
+    </div>
+  </div>
+</body>
+</html>
